@@ -1,0 +1,56 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+		Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+	background: url("https://images.pexels.com/photos/1154610/pexels-photo-1154610.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500")
+		no-repeat center center/cover;
+	color: #fff;
+	min-height: 110vh;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+h1,
+h4 {
+	margin: 3rem 0;
+	letter-spacing: 2px;
+}
+
+h4 {
+	font-size: 1.2rem;
+}
+
+.container {
+	width: 1100px;
+	margin: 3rem auto;
+	max-width: 90vw;
+	text-align: center;
+}
+
+.container input {
+	width: 70%;
+	padding: 10px 50px;
+}
+
+.container button {
+	display: block;
+	text-align: center;
+	margin: 2rem auto;
+	padding: 0.5rem 1rem;
+	cursor: pointer;
+	background-color: aqua;
+	border: none;
+	border-radius: 5px;
+	letter-spacing: 1px;
+	color: #111;
+}
+
+.container .shorten {
+	padding: 0.3rem 4rem;
+}
